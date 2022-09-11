@@ -10,7 +10,7 @@ jobs:
       - uses: zaproxy/action-baseline@v0.6.1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          target: 'https://www.time.ir''
+          target: 'https://www.time.ir'
           docker_name: 'owasp/zap2docker-stable'
           fail_action: true
           allow_issue_writing: true
